@@ -29,30 +29,28 @@ FirewallEventMonitor.exe
     
 ## Example Output
 
-    ```javascript
-[20170907 224228] Inbound Allow rule status = 0x0
-  port {id = 4, portName = 07312833-61E0-4D4E-BB4C-BFC46E86D345, portFriendlyName = NULL}
-  flow {src = 192.168.100.21, dst = 192.168.100.22, protocol = ICMPv4, icmp type = V4EchoRequest}
-  rule {id = 43cff06e-a520-4ad3-9fd9-1894f4a3489b, layer = FW_CONTROLLER_LAYER_ID, group = FW_GROUP_IPv4_IN_ID, gftFlags = 0}
-    ```
+    [20170907 224228] Inbound Allow rule status = 0x0
+      port {id = 4, portName = 07312833-61E0-4D4E-BB4C-BFC46E86D345, portFriendlyName = NULL}
+      flow {src = 192.168.100.21, dst = 192.168.100.22, protocol = ICMPv4, icmp type = V4EchoRequest}
+      rule {id = 43cff06e-a520-4ad3-9fd9-1894f4a3489b, layer = FW_CONTROLLER_LAYER_ID, group = FW_GROUP_IPv4_IN_ID, gftFlags = 0}
 
 ## Examples
 
 * Filter by IP Addresses
 
-    ```javascript
+    ```
     FirewallEventMonitor.exe -IP 192.168.0.22,192.168.0.23
     ```
     
 * Filter by Rule Id
 
-    ```javascript
+    ```
     FirewallEventMonitor.exe -Rule 391e5f07-0039-42dc-9734-abb5d633aadd,38222F79-1C3B-41F2-83B3-9FE0337AD548
     ```
 
 * Log Events to a file in C:\temp
 
-    ```javascript
+    ```
     FirewallEventMonitor.exe -Output Console,File -Directory C:\temp
     ```
     
