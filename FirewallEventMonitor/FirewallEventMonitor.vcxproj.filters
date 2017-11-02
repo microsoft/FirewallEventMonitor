@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NTL">
+      <UniqueIdentifier>{a85bcf13-d64b-4718-81c8-c5939f9b4d0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FirewallCaptureSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FirewallEtwTraceCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentProcessing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlComInitialize.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlEtwReader.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlEtwRecord.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlEtwRecordQuery.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlException.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlHandle.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlLocks.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlMath.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlNetAdapterAddresses.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlRandom.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlScopedT.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlScopeGuard.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlSockaddr.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlSocketExtensions.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlString.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlThreadIocp.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlThreadPoolTimer.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlTimer.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlUuid.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlVersionConversion.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlWmiClassObject.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlWmiEnumerate.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlWmiException.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlWmiInitialize.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlWmiInstance.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlWmiMakeVariant.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlWmiPerformance.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlWmiProperties.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ntlWmiService.hpp">
+      <Filter>NTL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirewallCaptureSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirewallEtwTraceCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirewallEventMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgumentProcessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
